@@ -1,35 +1,4 @@
-﻿//#include <iostream>
-//#include <string>
-//#include <fstream>
-//using namespace std;
-//
-//int main() {
-//    ofstream file("log.txt", ios::app);
-//    string k;
-//    int cnt = 0;
-//
-//    while (getline(cin, k)) {
-//        if (k == "0") break;
-//
-//        file << k << endl;
-//        cnt++;
-//    }
-//
-//    cout << "Total sentences: " << cnt << endl;
-//
-//    file.close();
-//
-//    cout << "History" << endl;
-//
-//    ifstream read("log.txt");
-//    string line;
-//    while (getline(read, line)) {
-//        cout << line << endl;
-//    }
-//    return 0;
-//}
-
-#include <iostream>
+﻿#include <iostream>
 #include <fstream>
 #include <string>
 #include <windows.h>
